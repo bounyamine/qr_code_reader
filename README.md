@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# 📱 QR Code Reader
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Une application simple et élégante qui permet aux utilisateurs de scanner des **QR codes** à partir d'une image. Avec une interface moderne et intuitive, cette application offre des fonctionnalités telles que l'affichage du contenu scanné et la copie rapide du texte dans le presse-papiers.
 
-## Available Scripts
+## 🎨 Aperçu
 
-In the project directory, you can run:
+L'application **QR Code Reader** vous permet de télécharger une image contenant un QR code et de scanner son contenu instantanément. Vous pouvez ensuite copier le texte extrait en un seul clic.
 
-### `npm start`
+![QR Code Reader Screenshot](https://your-screenshot-url.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Fonctionnalités
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Téléchargement de QR Code** : Sélectionnez et téléchargez une image de QR code pour la scanner.
+- **Scan instantané** : L'application lit et affiche automatiquement le contenu du QR code.
+- **Copie rapide** : Copiez le texte extrait directement dans le presse-papiers en un clic.
+- **Interface utilisateur fluide** : Une interface moderne et réactive, avec des animations élégantes.
 
-### `npm test`
+## 🛠️ Technologies
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React.js** : Bibliothèque JavaScript utilisée pour créer l'interface utilisateur.
+- **CSS3** : Pour styliser et rendre l'application visuellement attrayante.
+- **QRServer API** : Utilisée pour décoder le QR code et extraire le texte.
 
-### `npm run build`
+## 📦 Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Cloner le projet :**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/votre-utilisateur/qr-code-reader.git
+   cd qr-code-reader
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Installer les dépendances :**
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Démarrer l'application :**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. **Accéder à l'application :**
+   Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour utiliser l'application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📖 Utilisation
 
-## Learn More
+1. **Télécharger un QR Code** : Cliquez sur la zone de téléchargement pour sélectionner une image contenant un QR code.
+2. **Scanner le QR Code** : Le contenu du QR code sera affiché dans l'interface.
+3. **Copier le texte** : Cliquez sur le bouton **Copy Text** pour copier le contenu extrait dans le presse-papiers.
+4. **Fermer** : Utilisez le bouton **Close** pour réinitialiser l'interface et télécharger un nouveau QR code.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🗂 Structure du projet
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+/public
+  index.html              # Page HTML principale
+/src
+  /components             # Composants React
+  App.js                  # Composant principal de l'application
+  App.css                 # Styles principaux de l'application
+  index.js                # Point d'entrée de l'application React
+```
 
-### Code Splitting
+## 🎥 Démo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Regardez une démo en direct de l'application [ici](https://your-demo-url.com) !
 
-### Analyzing the Bundle Size
+## 🤝 Contributions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Les contributions sont les bienvenues ! Si vous avez des idées pour améliorer cette application ou ajouter de nouvelles fonctionnalités, suivez ces étapes :
 
-### Making a Progressive Web App
+1. **Fork le projet**.
+2. **Créez une branche** (`git checkout -b feature/new-feature`).
+3. **Committez vos changements** (`git commit -am 'Ajout d'une nouvelle fonctionnalité'`).
+4. **Poussez sur la branche** (`git push origin feature/new-feature`).
+5. **Créez une Pull Request**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 Licence
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ce projet est sous licence **MIT**. Consultez le fichier [LICENSE](./LICENSE) pour plus d'informations.
