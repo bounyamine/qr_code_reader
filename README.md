@@ -6,7 +6,8 @@ Une application simple et élégante qui permet aux utilisateurs de scanner des 
 
 L'application **QR Code Reader** vous permet de télécharger une image contenant un QR code et de scanner son contenu instantanément. Vous pouvez ensuite copier le texte extrait en un seul clic.
 
-![QR Code Reader Screenshot](https://your-screenshot-url.com)
+![QR Code Reader Screenshot](https://github.com/bounyamine/qr_code_reader/blob/master/public/screenshots/screen1.png)
+![QR Code Reader Screenshot](https://github.com/bounyamine/qr_code_reader/blob/master/public/screenshots/screen2.png)
 
 ## 🚀 Fonctionnalités
 
