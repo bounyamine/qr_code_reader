@@ -27,8 +27,8 @@ L'application **QR Code Reader** vous permet de télécharger une image contenan
 1. **Cloner le projet :**
 
    ```bash
-   git clone https://github.com/votre-utilisateur/qr-code-reader.git
-   cd qr-code-reader
+   git clone https://github.com/bounyamine/qr_code_reader.git
+   cd qr_code_reader
    ```
 
 2. **Installer les dépendances :**
